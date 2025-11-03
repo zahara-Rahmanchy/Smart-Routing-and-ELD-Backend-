@@ -80,7 +80,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'spotter.wsgi.application'
+WSGI_APPLICATION = 'spotter.wsgi.app'
 
 
 # Database
