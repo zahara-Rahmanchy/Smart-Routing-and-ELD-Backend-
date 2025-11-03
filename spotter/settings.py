@@ -25,6 +25,7 @@ SECRET_KEY = config("SECRET_KEY_VALUE")
 # ORS API Key
 ORS_API_KEY = config('ORS_API_KEY')
 ORS_URL = config('ORS_URL')
+Frontend_url = config('Frontend_URL')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -61,7 +62,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'spotter.urls'
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",
+    Frontend_url
 ]
 
 
